@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "label": "Title",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_14ij39h",
+        "columns": null
+      },
+      "id": "Field_0wlmv1d",
+      "key": "title",
+      "validate": {
+        "required": true,
+        "minLength": 3,
+        "maxLength": 50
+      }
+    },
+    {
+      "label": "Duration",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_14ij39h",
+        "columns": null
+      },
+      "id": "Field_02vyrr3",
+      "key": "duration",
+      "description": "(min)",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "English",
+          "value": "english"
+        },
+        {
+          "label": "Spanish",
+          "value": "spanish"
+        },
+        {
+          "label": "German",
+          "value": "german"
+        },
+        {
+          "label": "French",
+          "value": "french"
+        },
+        {
+          "label": "Portuguese",
+          "value": "portuguese"
+        }
+      ],
+      "label": "Languages",
+      "type": "checklist",
+      "layout": {
+        "row": "Row_0tei2ch",
+        "columns": null
+      },
+      "id": "Field_0abs941",
+      "key": "languages"
+    }
+  ],
+  "type": "default",
+  "id": "assetInformation",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.19.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 14
+}

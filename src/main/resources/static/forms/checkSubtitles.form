@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "The subtitles are correct?",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1mr444h",
+        "columns": null
+      },
+      "id": "Field_1ozrvwy",
+      "key": "areSubtitlesCorrect",
+      "defaultValue": "yes",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "checkSubtitles",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.19.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 14
+}
